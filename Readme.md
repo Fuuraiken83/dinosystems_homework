@@ -4,8 +4,10 @@ This is a simple REST API phonebook application which do:
 * get all phone numbers in users' phonebook
 * create, read (by id or name), update, delete users
 * create, read (by id, number), update, delete phone numbers in phonebook
+
 #How to run
 Run Main.java class in your IDE or execute jar file from the folder "target".
+
 #REST request examples
 Add user via POST request:
 `curl -d '{"id":"1", "name":"Ivan"}' -H "Content-Type: application/json" -X POST http://localhost:8080/user`
